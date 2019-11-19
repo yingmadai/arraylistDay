@@ -18,7 +18,7 @@ package day01.list;
  * 当容量不够时 ，再创建一个新的数组 其容量是旧的数组的1.5倍
  * jdk1.8时
  * 在list.add(obj)时才给我们创建一个长度为10的Object数组 ，才去扩容，相比于jdk1.7时 省了内存
- * 在开发中 如果我们知道此list的元素个数不会超过多大时 我们最好指定长度 等不够时再去扩容
+ * 在开发中 如果我们知道此list的元素个数不会超过多大时  我们最好指定长度 等不够时再去扩容
  * ArrayList list = new ArrayList(50);
  * 3. LinkedList的源码分析：
  * LinkedList list = new LinkedList(); 内部声明了Node类型的first和last属性，默认值为null
